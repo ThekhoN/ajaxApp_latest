@@ -1,0 +1,46 @@
+.dodSuperDeal_unit    {
+  .offerUnit_discount {
+    position: static !important;
+  }
+
+  .offerUnit_sdPlusWrap_abs {
+    left: auto;
+    right: 12px !important;
+  }
+
+  .offerUnit_discountWrap {
+    width: 100%;
+  }
+
+}
+
+.dodSuperDealUnit_ev  {
+  &.offerUnits_2_2 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    @include breakpoint(1024px){
+      margin-top: 10px;
+      border: none!important;
+      box-shadow: 0 5px 17px 0 rgba(23, 84, 116, 0.18)!important;
+      z-index: 15
+    }
+
+    &:last-child {
+      border-top: 1px solid $separator;
+
+      @include breakpoint(963px){
+        border-top: 0;
+        border-left: 1px solid $separator;
+      }
+
+      @include breakpoint(1024px){
+        border-top: 0;
+      }
+    }
+
+    .centeredContX {
+      text-align: left;
+    }
+  }
+}

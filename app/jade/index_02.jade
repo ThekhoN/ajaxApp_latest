@@ -1,0 +1,84 @@
+//output:../index_02.html
+//{
+    title:"Test jade compass build",
+    link:"Link"
+  }
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title=title
+    link(rel="stylesheet", href="stylesheets/screen.css")
+  body
+    #mainWrapperX_newX999
+      .offerUnit_Wrapper
+        .offerUnit
+          #liveOffer_01.offers_WrapperX99
+          .timerX99_UnitWrap_rel
+            .absWrapX
+              .timerX99_label Ends in:
+              .timerX99_Wrapper#CountDwnX99_01
+                span.timerX_valueX.dayV_timerX
+                span.timerX_labelX.dayL_timerX days
+                span.timerX_valueX.hrV_timerX
+                span.timerX_labelX.hrL_timerX :
+                span.timerX_valueX.minV_timerX
+                span.timerX_labelX.minL_timerX :
+                span.timerX_valueX.secV_timerX
+                span.timerX_labelX.secL_timerX
+        .offerUnit
+          #liveOffer_02.offers_WrapperX99
+          .timerX99_UnitWrap_rel
+            .absWrapX
+              .timerX99_label Ends in:
+              .timerX99_Wrapper#CountDwnX99_02
+                span.timerX_valueX.dayV_timerX
+                span.timerX_labelX.dayL_timerX days
+                span.timerX_valueX.hrV_timerX
+                span.timerX_labelX.hrL_timerX :
+                span.timerX_valueX.minV_timerX
+                span.timerX_labelX.minL_timerX :
+                span.timerX_valueX.secV_timerX
+                span.timerX_labelX.secL_timerX
+        .offerUnit
+          #liveOffer_03.offers_WrapperX99
+          .timerX99_UnitWrap_rel
+            .absWrapX
+              .timerX99_label Ends in:
+              .timerX99_Wrapper#CountDwnX99_03
+                span.timerX_valueX.dayV_timerX
+                span.timerX_labelX.dayL_timerX days
+                span.timerX_valueX.hrV_timerX
+                span.timerX_labelX.hrL_timerX :
+                span.timerX_valueX.minV_timerX
+                span.timerX_labelX.minL_timerX :
+                span.timerX_valueX.secV_timerX
+                span.timerX_labelX.secL_timerX
+        .offerUnit
+          #liveOffer_04.offers_WrapperX99
+          .timerX99_UnitWrap_rel
+            .absWrapX
+              .timerX99_label Ends in:
+              .timerX99_Wrapper#CountDwnX99_04
+                span.timerX_valueX.dayV_timerX
+                span.timerX_labelX.dayL_timerX days
+                span.timerX_valueX.hrV_timerX
+                span.timerX_labelX.hrL_timerX :
+                span.timerX_valueX.minV_timerX
+                span.timerX_labelX.minL_timerX :
+                span.timerX_valueX.secV_timerX
+                span.timerX_labelX.secL_timerX
+      .offerUpcoming_Wrapper
+        .offerUnit
+          #upcomingOffer_01.offers_WrapperX99
+        .offerUnit
+          #upcomingOffer_02.offers_WrapperX99
+        .offerUnit
+          #upcomingOffer_03.offers_WrapperX99
+        .offerUnit
+          #upcomingOffer_04.offers_WrapperX99                                       
+  script(src="js/bundle.js")
+  script(src="js/TimerX99.js")
+  script var url = "../data/csvData_2.json"; /*var url = (window.admin && window.admin == 'true' ? '/admin' : '') + '/get/offers/jsonList/' + mktName.value;*/ AjaxPageApp.init({url:url,});       
+            

@@ -1,0 +1,26 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "browserify js/app.js -o js/bundle.js",
+    "watch": "watchify js/app.js -o js/bundle.js",
+    "min": "browserify js/app.js -d -p [minifyify --map bundle.js.map --output bundle_min.js.map] > bundle_min.js",
+    "start-server": "budo index.js --live"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^9.1.0",
+    "minifyify": "^7.3.3",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "axios": "^0.14.0",
+    "blazy": "^1.6.2",
+    "es6-promise": "^4.0.5",
+    "fastdom": "^1.0.3",
+    "rsvp": "^3.3.3"
+  }
+}

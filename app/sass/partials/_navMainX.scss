@@ -1,0 +1,172 @@
+
+
+$navPad: 1em;
+$navMainX_3Items: 1280px;
+$lightTransparentBg: rgba(255, 255, 255, 0);
+//reset to no margin in case navMainX_Wrapper is defined
+.headerBannerX {
+  margin-bottom: 0 !important;
+}
+
+.topNavX99 {
+  z-index: 1!important;
+
+  &.scroll-to-fixed-fixed {
+    z-index: 1000!important;
+  }
+}
+
+.verticalPadX99 {
+  padding-top: 0.3em;
+  @include breakpoint(480px){
+    padding-top: 0;
+  };
+}
+
+
+.navMainX_Wrapper {
+  font-family:$sansSerifFont;
+  float: left;
+  width: 100%;
+  @include transition(all 0.3s linear);
+  position: relative;
+  overflow: hidden;
+
+  @include breakpoint(1280px){
+    overflow: visible;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    right: -50%;
+    height: 58px;
+    z-index: 1;
+    background: $lightTransparentBg;
+    display: none;
+
+    @include breakpoint(1280px){
+      display: block ;
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: -50%;
+    height: 58px;
+    z-index: 1;
+    background: $lightTransparentBg;
+    display: none;
+
+    @include breakpoint(1280px){
+      display: block ;
+    }
+  }
+
+  &.scroll-to-fixed-fixed {
+      width: 100% !important;
+      left: 0 !important;
+  }
+
+  ul.navMainX_Wrapper_Ul {
+    list-style: none;
+    max-width: 1280px;
+    @include breakpoint(1664px){
+      max-width: 1600px;
+    };
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+      li.navX99 {
+        float: left;//conditional
+        display: inline-block;
+        text-align: center;
+        box-sizing: border-box;
+        border-right: 1px solid $separator;
+        height: 40px;
+        background: white;
+        cursor: pointer;
+        position: relative;
+        color: $textCol;
+        width: 25%;
+        font-size: 10px;
+        text-transform: capitalize;
+        padding: 1em 0;
+        @include transition(all 0.3s linear);
+        z-index: 2;
+
+          a {
+            width: 100%;
+            float: left;
+            display: block;
+            color: $textCol;
+            text-decoration: none;
+            @extend .verticalCenterX99;
+
+            @include breakpoint(480px){
+              font-size: 0.875em;
+            }
+          }
+          &:nth-child(1){
+            border-left: 1px solid $separator;
+          }
+
+          &.activeX99 {
+            color: $navMainActive;
+            box-shadow:         0px 1px 4px 0px rgba(50, 50, 50, 0.35);
+
+            a {
+              color: $red_dark;
+            }
+
+            &:after {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              content: '';
+              height: 2px;
+              width: 100%;
+              background: $red_main;
+            }
+          }
+
+          @include breakpoint(768px){
+            height: 58px;
+            width: 25%;
+            font-size: 14px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding-top: 0.8em;
+            padding-bottom: 1em;
+
+            &:hover {
+              color: $navMainActive;
+              box-shadow:         0px 1px 4px 0px rgba(50, 50, 50, 0.35);
+
+              &:after {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                content: '';
+                height: 2px;
+                width: 100%;
+                background: $red_main;
+              }
+            }
+          }
+
+      }
+    }
+
+}
+
+.navMainX_Wrapper_inner {
+  @extend  .contRofl_clr;
+  border-top: 1px solid $separator;
+  border-bottom: 1px solid $separator;
+}

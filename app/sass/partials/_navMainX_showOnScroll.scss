@@ -1,0 +1,52 @@
+.topNavX99_Wrapper {
+  display: none;
+
+  @include breakpoint(1024px){
+    display: block;
+  }
+}
+
+.visiblX {
+    opacity:1;
+    visibility: visible;
+}
+
+.slideInX999 {
+    opacity:1;
+    visibility: visible;
+    @include transform(translateY(0));
+}
+
+.slideOutX999 {
+    opacity:1;
+    visibility: visible;
+    @include transform(translateY(0));
+}
+
+.displayOn_invis {
+    display:block;
+    visibility:hidden;
+}
+
+
+.scroll-to-fixed-fixed {
+    opacity: 0;
+    visibility: hidden;
+    @include transform(translateY(-10px));
+}
+
+.scroll-to-fixed-fixed {
+  ul.navMainX_Wrapper_Ul {
+    border-bottom: 1px solid $separator;
+  }
+}
+
+.scroll-to-fixed-fixed.slideInX999 {
+    opacity:1;
+    visibility: visible;
+    @include transform(translateY(0));
+}
+
+.navMainX_Wrapper {
+    @include transition(all 0.3s );
+}

@@ -1,0 +1,20 @@
+catalogID ~ offer_Offers.map
+
+SUPC ~ offer_Offers.map
+
+discount
+
+avgRating
+
+noOfReviews
+
+image
+
+price
+
+displayPrice
+
+soldout 
+
+
+

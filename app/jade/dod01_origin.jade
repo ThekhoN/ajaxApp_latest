@@ -1,0 +1,293 @@
+//output:../test.html
+//{
+    title:"Test jade compass build",
+    link:"Link"
+  }
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title=title
+    link(rel="stylesheet", href="stylesheets/screen.css")
+      
+    script
+      |var pictureTag_supported = !!window.HTMLPictureElement;
+      |checkPicturefill_req();
+      |function checkPicturefill_req() {
+      |    if (!pictureTag_supported) {
+      |        ['https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.1/picturefill.min.js'].forEach(function(src) {
+      |            var script = document.createElement('script');
+      |            script.src = src;
+      |            script.async = true;
+      |            document.head.appendChild(script);
+      |        });
+      |    } else {
+      |        console.log('picture tag supported, picturefill not required!');
+      |    }
+      |}  
+  body
+    #mainWrapperX_newX999
+      .headerBannerX
+        img(src="https://i1.sdlcdn.com/static/img/marketing-mailers/mailer/2016/Ankita/17thJan_header_DOD_APP.jpg")
+      .sectionOfferWrapper
+        .sectionX
+          .captionWrap_bgX99
+            .captionX99
+              h2
+                span.decorX Super Deal of the Day
+          .offerCont_wrap
+            .wrap_InnerContentX.whiteBG_bordered.flex_width_contstraWrap_96_76_100
+              .dodSuperDealsWrapAll_rel
+                .dodSuperDealWrap  
+                  .offerUnit_Wrapper
+                    .offerUnit
+                      #BoldClassicsHero1.offers_WrapperX99.relFontSize_util
+                        .dodSuperDeal_unit.BoldClassicsHero1_unit.offer_x99Unit
+                          .offerUnit_Soldout
+                            .offerUnit_Soldout_btn Sold Out
+                          a.offerUnit_href(href='', target='_blank')
+                            .offerUnit_href_afterWrap
+                              .offerUnit_imgWrap_sdPlusInc_rel
+                                img.offerUnit_img.b-lazy(src="https://n1.sdlcdn.com/imgs/b/2/g/166x194/Micromax-Canvas-Unite-4-Pro-SDL386072127-1-e3d92.jpg")
+                              .offerUnit_nonImgContWrap
+                                .wrapCenterCont
+                                  .centeredContX
+                                    .offerUnit_discountWrap
+                                      .offerUnit_discount 30% Off
+                                    .offerUnit_title Fossil FS4835 Blue Leather Analog Watch
+                                    .offerUnit_ratingWrap
+                                      .offerUnit_rating_rel(style="opacity: 1")
+                                        .ratingBG_disabled
+                                        .ratingBG_active(style="width: 57.4px;")
+                                      span.numberRevsX &nbsp; (147)
+                                    .offerUnit_priceTaglineWrap_rel
+                                      .offerUnit_priceWrap
+                                        span.offerUnit_priceWrapAll Rs. 
+                                          span.offerUnit_price 349
+                                        span.offerUnit_displayPrice &nbsp; Rs.249
+                                      .offerUnit_taglineWrap
+                                        span.offerUnit_tagline      
+                .dodSuperDealReasonsWrap_abs
+                  .wrapCenterCont
+                    .centeredContX  
+                      .offerUnit_Wrapper
+                        .dodSuperDealReasons_captionWrap 
+                          h4 Reasons to buy  
+                        .offerUnit
+                          ul#reason.offers_WrapperX99.relFontSize_util
+                            li.reason_unit.offer_x99Unit
+                              .reasonsToBuy_tagline Water Resistant
+                            li.reason_unit.offer_x99Unit
+                              .reasonsToBuy_tagline Water Resistant
+                            li.reason_unit.offer_x99Unit
+                              .reasonsToBuy_tagline Water Resistant
+        .sectionX
+          .captionWrap_bgX99
+            .captionX99
+              h2
+                span.decorX Deals of the Day 
+          .offerCont_wrap
+            .width_contstraWrap
+              .offerUnit_Wrapper
+                .offerUnit
+                  ul#DealofDayOffers.offers_WrapperX99.relFontSize_util
+                    li.offer_x99Unit.DealofDayOffers_unit.offerUnit_normalOffer
+                      .offerUnit_Soldout
+                        .offerUnit_Soldout_btn Sold Out
+                      a.offerUnit_href(href='', target='_blank')
+                        .offerUnit_href_afterWrap
+                          .offerUnit_imgWrap_sdPlusInc_rel
+                            img.offerUnit_img.b-lazy(src="https://n1.sdlcdn.com/imgs/b/2/g/166x194/Micromax-Canvas-Unite-4-Pro-SDL386072127-1-e3d92.jpg")
+                          .offerUnit_nonImgContWrap
+                            .offerUnit_discountWrap
+                              .offerUnit_discount 30% Off
+                            .offerUnit_title Fossil FS4835 Blue Leather Analog Watch
+                            .offerUnit_ratingWrap
+                              .offerUnit_rating_rel(style="opacity: 1")
+                                .ratingBG_disabled
+                                .ratingBG_active(style="width: 57.4px;")
+                              span.numberRevsX &nbsp; (147)
+                            .offerUnit_priceTaglineWrap_rel
+                              .offerUnit_priceWrap
+                                span.offerUnit_priceWrapAll Rs. 
+                                  span.offerUnit_price 349
+                                span.offerUnit_displayPrice &nbsp; Rs.249
+                              .offerUnit_taglineWrap
+                                span.offerUnit_tagline 
+                    li.offer_x99Unit.DealofDayOffers_unit.offerUnit_normalOffer
+                      .offerUnit_Soldout
+                        .offerUnit_Soldout_btn Sold Out
+                      a.offerUnit_href(href='', target='_blank')
+                        .offerUnit_href_afterWrap
+                          .offerUnit_imgWrap_sdPlusInc_rel
+                            img.offerUnit_img.b-lazy(src="https://n1.sdlcdn.com/imgs/b/2/g/166x194/Micromax-Canvas-Unite-4-Pro-SDL386072127-1-e3d92.jpg")
+                          .offerUnit_nonImgContWrap
+                            .offerUnit_discountWrap
+                              .offerUnit_discount 30% Off
+                            .offerUnit_title Fossil FS4835 Blue Leather Analog Watch
+                            .offerUnit_ratingWrap
+                              .offerUnit_rating_rel(style="opacity: 1")
+                                .ratingBG_disabled
+                                .ratingBG_active(style="width: 57.4px;")
+                              span.numberRevsX &nbsp; (147)
+                            .offerUnit_priceTaglineWrap_rel
+                              .offerUnit_priceWrap
+                                span.offerUnit_priceWrapAll Rs. 
+                                  span.offerUnit_price 349
+                                span.offerUnit_displayPrice &nbsp; Rs.249
+                              .offerUnit_taglineWrap
+                                span.offerUnit_tagline
+                    li.offer_x99Unit.DealofDayOffers_unit.offerUnit_normalOffer
+                      .offerUnit_Soldout
+                        .offerUnit_Soldout_btn Sold Out
+                      a.offerUnit_href(href='', target='_blank')
+                        .offerUnit_href_afterWrap
+                          .offerUnit_imgWrap_sdPlusInc_rel
+                            img.offerUnit_img.b-lazy(src="https://n1.sdlcdn.com/imgs/b/2/g/166x194/Micromax-Canvas-Unite-4-Pro-SDL386072127-1-e3d92.jpg")
+                          .offerUnit_nonImgContWrap
+                            .offerUnit_discountWrap
+                              .offerUnit_discount 30% Off
+                            .offerUnit_title Fossil FS4835 Blue Leather Analog Watch
+                            .offerUnit_ratingWrap
+                              .offerUnit_rating_rel(style="opacity: 1")
+                                .ratingBG_disabled
+                                .ratingBG_active(style="width: 57.4px;")
+                              span.numberRevsX &nbsp; (147)
+                            .offerUnit_priceTaglineWrap_rel
+                              .offerUnit_priceWrap
+                                span.offerUnit_priceWrapAll Rs. 
+                                  span.offerUnit_price 349
+                                span.offerUnit_displayPrice &nbsp; Rs.249
+                              .offerUnit_taglineWrap
+                                span.offerUnit_tagline 
+                    li.offer_x99Unit.DealofDayOffers_unit.offerUnit_normalOffer
+                      .offerUnit_Soldout
+                        .offerUnit_Soldout_btn Sold Out
+                      a.offerUnit_href(href='', target='_blank')
+                        .offerUnit_href_afterWrap
+                          .offerUnit_imgWrap_sdPlusInc_rel
+                            img.offerUnit_img.b-lazy(src="https://n1.sdlcdn.com/imgs/b/2/g/166x194/Micromax-Canvas-Unite-4-Pro-SDL386072127-1-e3d92.jpg")
+                          .offerUnit_nonImgContWrap
+                            .offerUnit_discountWrap
+                              .offerUnit_discount 30% Off
+                            .offerUnit_title Fossil FS4835 Blue Leather Analog Watch
+                            .offerUnit_ratingWrap
+                              .offerUnit_rating_rel(style="opacity: 1")
+                                .ratingBG_disabled
+                                .ratingBG_active(style="width: 57.4px;")
+                              span.numberRevsX &nbsp; (147)
+                            .offerUnit_priceTaglineWrap_rel
+                              .offerUnit_priceWrap
+                                span.offerUnit_priceWrapAll Rs. 
+                                  span.offerUnit_price 349
+                                span.offerUnit_displayPrice &nbsp; Rs.249
+                              .offerUnit_taglineWrap
+                                span.offerUnit_tagline                                       
+        .sectionX
+          .captionWrap_bgX99
+            .captionX99
+              h2
+                span.decorX Deals of the Day 
+          .offerCont_wrap
+            .width_contstraWrap
+              .offerUnit_Wrapper
+                .offerUnit
+                  ul#DealofDayOffers.offers_WrapperX99.relFontSize_util.inactive
+                    li.offer_x99Unit.DealofDayOffers_unit.offerUnit_normalOffer
+                      .offerUnit_Soldout
+                        .offerUnit_Soldout_btn Sold Out
+                      a.offerUnit_href(href='', target='_blank')
+                        .offerUnit_href_afterWrap
+                          .offerUnit_imgWrap_sdPlusInc_rel
+                            img.offerUnit_img.b-lazy(src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7", data-src="https://n1.sdlcdn.com/imgs/b/2/g/166x194/Micromax-Canvas-Unite-4-Pro-SDL386072127-1-e3d92.jpg")
+                          .offerUnit_nonImgContWrap
+                            .offerUnit_discountWrap
+                              .offerUnit_discount 30% Off
+                            .offerUnit_title Fossil FS4835 Blue Leather Analog Watch
+                            .offerUnit_ratingWrap
+                              .offerUnit_rating_rel(style="opacity: 0")
+                                .ratingBG_disabled
+                                .ratingBG_active(style="width: 57.4px;")
+                              span.numberRevsX &nbsp; (147)
+                            .offerUnit_priceTaglineWrap_rel
+                              .offerUnit_priceWrap
+                                span.offerUnit_priceWrapAll Rs. 
+                                  span.offerUnit_price 349
+                                span.offerUnit_displayPrice &nbsp; Rs.249
+                              .offerUnit_taglineWrap
+                                span.offerUnit_tagline 
+                    li.offer_x99Unit.DealofDayOffers_unit.offerUnit_normalOffer
+                      .offerUnit_Soldout
+                        .offerUnit_Soldout_btn Sold Out
+                      a.offerUnit_href(href='', target='_blank')
+                        .offerUnit_href_afterWrap
+                          .offerUnit_imgWrap_sdPlusInc_rel
+                            img.offerUnit_img.b-lazy(src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7", data-src="https://n1.sdlcdn.com/imgs/b/2/g/166x194/Micromax-Canvas-Unite-4-Pro-SDL386072127-1-e3d92.jpg")
+                          .offerUnit_nonImgContWrap
+                            .offerUnit_discountWrap
+                              .offerUnit_discount 30% Off
+                            .offerUnit_title Fossil FS4835 Blue Leather Analog Watch
+                            .offerUnit_ratingWrap
+                              .offerUnit_rating_rel(style="opacity: 0")
+                                .ratingBG_disabled
+                                .ratingBG_active(style="width: 57.4px;")
+                              span.numberRevsX &nbsp; (147)
+                            .offerUnit_priceTaglineWrap_rel
+                              .offerUnit_priceWrap
+                                span.offerUnit_priceWrapAll Rs. 
+                                  span.offerUnit_price 349
+                                span.offerUnit_displayPrice &nbsp; Rs.249
+                              .offerUnit_taglineWrap
+                                span.offerUnit_tagline
+                    li.offer_x99Unit.DealofDayOffers_unit.offerUnit_normalOffer
+                      .offerUnit_Soldout
+                        .offerUnit_Soldout_btn Sold Out
+                      a.offerUnit_href(href='', target='_blank')
+                        .offerUnit_href_afterWrap
+                          .offerUnit_imgWrap_sdPlusInc_rel
+                            img.offerUnit_img.b-lazy(src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7", data-src="https://n1.sdlcdn.com/imgs/b/2/g/166x194/Micromax-Canvas-Unite-4-Pro-SDL386072127-1-e3d92.jpg")
+                          .offerUnit_nonImgContWrap
+                            .offerUnit_discountWrap
+                              .offerUnit_discount 30% Off
+                            .offerUnit_title Fossil FS4835 Blue Leather Analog Watch
+                            .offerUnit_ratingWrap
+                              .offerUnit_rating_rel(style="opacity: 0")
+                                .ratingBG_disabled
+                                .ratingBG_active(style="width: 57.4px;")
+                              span.numberRevsX &nbsp; (147)
+                            .offerUnit_priceTaglineWrap_rel
+                              .offerUnit_priceWrap
+                                span.offerUnit_priceWrapAll Rs. 
+                                  span.offerUnit_price 349
+                                span.offerUnit_displayPrice &nbsp; Rs.249
+                              .offerUnit_taglineWrap
+                                span.offerUnit_tagline 
+                    li.offer_x99Unit.DealofDayOffers_unit.offerUnit_normalOffer
+                      .offerUnit_Soldout
+                        .offerUnit_Soldout_btn Sold Out
+                      a.offerUnit_href(href='', target='_blank')
+                        .offerUnit_href_afterWrap
+                          .offerUnit_imgWrap_sdPlusInc_rel
+                            img.offerUnit_img.b-lazy(src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7", data-src="https://n1.sdlcdn.com/imgs/b/2/g/166x194/Micromax-Canvas-Unite-4-Pro-SDL386072127-1-e3d92.jpg")
+                          .offerUnit_nonImgContWrap
+                            .offerUnit_discountWrap
+                              .offerUnit_discount 30% Off
+                            .offerUnit_title Fossil FS4835 Blue Leather Analog Watch
+                            .offerUnit_ratingWrap
+                              .offerUnit_rating_rel(style="opacity: 0")
+                                .ratingBG_disabled
+                                .ratingBG_active(style="width: 57.4px;")
+                              span.numberRevsX &nbsp; (147)
+                            .offerUnit_priceTaglineWrap_rel
+                              .offerUnit_priceWrap
+                                span.offerUnit_priceWrapAll Rs. 
+                                  span.offerUnit_price 349
+                                span.offerUnit_displayPrice &nbsp; Rs.249
+                              .offerUnit_taglineWrap
+                                span.offerUnit_tagline                                       
+  
+  script(src="js/bundle.js")
+  script(src="js/TimerX99.js")
+  script var url = "../data/csvData_2.json"; /*var url = (window.admin && window.admin == 'true' ? '/admin' : '') + '/get/offers/jsonList/' + mktName.value;*/ AjaxPageApp.init({url:url,});       
+            

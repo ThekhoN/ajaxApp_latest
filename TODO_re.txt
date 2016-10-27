@@ -1,0 +1,50 @@
+TODO
+*****
+- css/js/base64 images to be moved to http requests
+- Base 64 images to be moved to existing sprites and font-icons
+- social icons to be replaced with footer icons 
+x timeID to be removed; caching critical
+x timeID to be removed from getProductById as well
+[] getProductById to be broken/paginated - to be picked basis effort
+
+
+
+
+/// +++++ base64 Optimization +++++ ///
+
+gather all base64 image resources in one file
+	
+	
+	#_socialShare.scss
+
+		.facebookX
+
+		.twitterX
+
+		.googleplusX
+
+		.pinterestX
+
+		.whatsappX
+
+
+	#_defaultUnitOffer.scss
+
+		.offerUnit_sdPlusWrap_abs
+
+		.ratingBG_disabled
+
+		.ratingBG_active
+
+
+	#_loaderInactive.scss
+
+		.offerUnit_imgWrap_sdPlusInc_rel
+
+
+create a local-simulator scss for snadpeal_reuse_resources
+
+
+/// +++++ disable prevent ajaxRequest Cache +++++ ///
+
+D O N E 

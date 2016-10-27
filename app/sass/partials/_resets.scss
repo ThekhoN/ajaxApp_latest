@@ -1,0 +1,36 @@
+.inHouseDevs_pageWrapper li div {
+    margin-top: 0;
+}
+
+
+#content_wrapper{
+    max-width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.hidden{
+  display: none;
+}
+//to remove fixed sd navBar
+
+.stickHeadNew {
+	display:none;
+}
+
+.stickHeadNew {
+  display:none;
+  //transform: translate(0, 0);
+}
+
+#back-top{
+ background: transparent;
+ position: relative;
+}
+
+div#footer-top-text {
+
+    @include breakpoint(1664px){
+      width: auto !important;
+      max-width: 1600px;
+    }
+}

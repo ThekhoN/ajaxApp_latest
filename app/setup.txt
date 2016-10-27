@@ -1,0 +1,16 @@
+GLOBAL INSTALL
+**************
+requires ruby cli, scss + extensions(susy, scut etc) 
+requires node.js
+requires browserify
+
+
+
+***** Note *****
+
+/app folder:
+# Must have an index.js and index.html [this is rendered at localhost://9966]
+
+# data ~ .json files are to be stored here
+
+# use Atom IDE for smooth integration

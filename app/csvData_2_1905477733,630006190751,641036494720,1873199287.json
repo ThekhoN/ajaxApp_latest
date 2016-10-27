@@ -1,0 +1,447 @@
+[
+   {
+      "id":1905477733,
+      "image":"imgs/a/l/q/166x194/Bio-Oil-60-ml-SDL356901766-1-3232c.jpg",
+      "price":12345,
+      "voucherPrice":720,
+      "displayPrice":1234,
+      "prebook":false,
+      "discount":20,
+      "pageUrl":"product/bio-oil-60-ml/1355163416",
+      "addedToday":false,
+      "codValid":true,
+      "soldOut":true,
+      "name":"Bio Oil 60ml Pack of 2",
+      "freebies":[
+
+      ],
+      "initialAttributes":[
+
+      ],
+      "externalContentSRO":null,
+      "productOfferIds":[
+
+      ],
+      "imageForMobile":null,
+      "live":true,
+      "launched":true,
+      "avgRating":4.2,
+      "noOfRatings":1506,
+      "cashBackValue":null,
+      "cashBackValueInt":null,
+      "externalCashBackApplicable":false,
+      "cashBackType":"ABS",
+      "sellingPriceAftExtCashBack":null,
+      "walletCashBackValue":0.0,
+      "walletCashBackValueInt":0,
+      "walletCashbackApplicable":true,
+      "walletCashbackSource":"snapdeal",
+      "walletCashbackType":"ABS",
+      "sellingPriceAftWalletCashback":719,
+      "walletCashbackDiscount":20,
+      "shippingDays":1,
+      "productTag":null,
+      "shippingCharges":0,
+      "labelUrl":"skin-care-massage-oils-creams",
+      "labelId":3811,
+      "labelName":"Massage Oils & Creams",
+      "emi":124,
+      "emiApplicable":true,
+      "vendorCode":"S18801",
+      "vendorName":null,
+      "productLifeState":"Buy Now",
+      "productStatus":"active",
+      "actualIndex":null,
+      "emiMonthList":null,
+      "automobileProduct":false,
+      "exshowroomPrice":null,
+      "snapBazaarSeller":false,
+      "warehousePincode":null,
+      "initAttributesFull":[
+
+      ],
+      "initAttributeType":null,
+      "offers":[
+         {
+            "id":298492516,
+            "live":true,
+            "supcs":[
+               "SDL356901766"
+            ],
+            "images":[
+               "imgs/a/l/q/166x194/Bio-Oil-60-ml-SDL356901766-1-3232c.jpg",
+               "imgs/b/x/i/166x194/Bio-Oil-60ml-Pack-of-SDL356901766-11-4da22.jpg",
+               "imgs/b/x/i/166x194/Bio-Oil-60ml-Pack-of-SDL356901766-12-1c696.jpg"
+            ]
+         }
+      ],
+      "highlights":[
+
+      ],
+      "launchDate":null,
+      "attributesUpdated":true,
+      "brandId":29492,
+      "bucketId":2644,
+      "mrpAware":true,
+      "defaultSupcForFMCG":"SDL356901766",
+      "quantityForFMCG":0,
+      "defaultCatalogueIdForFMCG":298492516,
+      "brandName":"Bio Oil",
+      "serviceable":true,
+      "sdInstallProduct":false,
+      "sdInstallFree":false,
+      "productCategoryListing":[
+
+      ],
+      "sdPlusProduct":true,
+      "displaySUPC":"SDL356901766",
+      "appOnlyOfferPrice":null,
+      "appOnlyPriceDiscount":null,
+      "appOnlyOffer":false,
+      "similarExists":false,
+      "sdGold":false,
+      "showDifferentialPrice":false,
+      "ipmsDown":false,
+      "initAttributes":[
+
+      ],
+      "noOfRatings":1506,
+      "attributesJsonFull":"[]",
+      "productNameClipped":false,
+      "freebieNameClipped":false
+   },
+   {
+      "id":630006190751,
+      "image":"imgs/b/v/i/166x194/HP-802-Ink-Cartridge-Twin-SDL751565135-1-8f337.jpg",
+      "price":649,
+      "voucherPrice":709,
+      "displayPrice":649,
+      "prebook":false,
+      "discount":2,
+      "pageUrl":"product/hp-802-ink-cartridge-twin/630006190751",
+      "addedToday":false,
+      "codValid":true,
+      "soldOut":false,
+      "name":"HP 802 Ink Cartridge Twin Pack - Black",
+      "freebies":[
+
+      ],
+      "initialAttributes":[
+
+      ],
+      "externalContentSRO":null,
+      "productOfferIds":[
+
+      ],
+      "imageForMobile":null,
+      "live":true,
+      "launched":true,
+      "avgRating":4.2,
+      "noOfRatings":165,
+      "cashBackValue":null,
+      "cashBackValueInt":null,
+      "externalCashBackApplicable":false,
+      "cashBackType":"ABS",
+      "sellingPriceAftExtCashBack":null,
+      "walletCashBackValue":0.0,
+      "walletCashBackValueInt":0,
+      "walletCashbackApplicable":true,
+      "walletCashbackSource":"snapdeal",
+      "walletCashbackType":"ABS",
+      "sellingPriceAftWalletCashback":649,
+      "walletCashbackDiscount":19,
+      "shippingDays":3,
+      "productTag":null,
+      "shippingCharges":0,
+      "labelUrl":"computers-cartridges-toners",
+      "labelId":2558,
+      "labelName":"Inks & Toners",
+      "emi":112,
+      "emiApplicable":true,
+      "vendorCode":"S59296",
+      "vendorName":null,
+      "productLifeState":"Buy Now",
+      "productStatus":"active",
+      "actualIndex":null,
+      "emiMonthList":null,
+      "automobileProduct":false,
+      "exshowroomPrice":null,
+      "snapBazaarSeller":false,
+      "warehousePincode":null,
+      "initAttributesFull":[
+
+      ],
+      "initAttributeType":null,
+      "offers":[
+         {
+            "id":619392067915,
+            "live":true,
+            "supcs":[
+               "SDL751565135"
+            ],
+            "images":[
+               "imgs/b/v/i/166x194/HP-802-Ink-Cartridge-Twin-SDL751565135-1-8f337.jpg"
+            ]
+         }
+      ],
+      "highlights":[
+
+      ],
+      "launchDate":null,
+      "attributesUpdated":true,
+      "brandId":888,
+      "bucketId":1782,
+      "mrpAware":true,
+      "defaultSupcForFMCG":"SDL751565135",
+      "quantityForFMCG":0,
+      "defaultCatalogueIdForFMCG":619392067915,
+      "brandName":"HP",
+      "serviceable":true,
+      "sdInstallProduct":false,
+      "sdInstallFree":false,
+      "productCategoryListing":[
+
+      ],
+      "sdPlusProduct":true,
+      "displaySUPC":"SDL751565135",
+      "appOnlyOfferPrice":null,
+      "appOnlyPriceDiscount":null,
+      "appOnlyOffer":false,
+      "similarExists":false,
+      "sdGold":true,
+      "showDifferentialPrice":false,
+      "ipmsDown":false,
+      "initAttributes":[
+
+      ],
+      "noOfRatings":165,
+      "attributesJsonFull":"[]",
+      "productNameClipped":false,
+      "freebieNameClipped":false
+   },
+   {
+      "id":641036494720,
+      "image":"imgs/a/0/a/166x194/HP-16-GB-X705-USB-SDL544023378-1-96aa6.jpg",
+      "price":1500,
+      "voucherPrice":466,
+      "displayPrice":435,
+      "prebook":false,
+      "discount":71,
+      "pageUrl":"product/hp-16-gb-x705-usb/641036494720",
+      "addedToday":false,
+      "codValid":true,
+      "soldOut":false,
+      "name":"HP 16 GB X705W USB 3.0 Pen Drive",
+      "freebies":[
+
+      ],
+      "initialAttributes":[
+
+      ],
+      "externalContentSRO":null,
+      "productOfferIds":[
+
+      ],
+      "imageForMobile":null,
+      "live":true,
+      "launched":true,
+      "avgRating":0,
+      "noOfReviews":72,
+      "cashBackValue":null,
+      "cashBackValueInt":null,
+      "externalCashBackApplicable":false,
+      "cashBackType":"ABS",
+      "sellingPriceAftExtCashBack":null,
+      "walletCashBackValue":0.0,
+      "walletCashBackValueInt":0,
+      "walletCashbackApplicable":true,
+      "walletCashbackSource":"snapdeal",
+      "walletCashbackType":"ABS",
+      "sellingPriceAftWalletCashback":435,
+      "walletCashbackDiscount":71,
+      "shippingDays":2,
+      "productTag":null,
+      "shippingCharges":0,
+      "labelUrl":"computers-pen-drives",
+      "labelId":52,
+      "labelName":"Pen Drives",
+      "emi":27,
+      "emiApplicable":true,
+      "vendorCode":"S745e4",
+      "vendorName":null,
+      "productLifeState":"Buy Now",
+      "productStatus":"active",
+      "actualIndex":null,
+      "emiMonthList":null,
+      "automobileProduct":false,
+      "exshowroomPrice":null,
+      "snapBazaarSeller":false,
+      "warehousePincode":null,
+      "initAttributesFull":[
+
+      ],
+      "initAttributeType":null,
+      "offers":[
+         {
+            "id":685539124441,
+            "live":true,
+            "supcs":[
+               "SDL544023378"
+            ],
+            "images":[
+               "imgs/a/0/a/166x194/HP-16-GB-X705-USB-SDL544023378-1-96aa6.jpg"
+            ]
+         }
+      ],
+      "highlights":[
+
+      ],
+      "launchDate":null,
+      "attributesUpdated":true,
+      "brandId":888,
+      "bucketId":1029,
+      "mrpAware":true,
+      "defaultSupcForFMCG":"SDL544023378",
+      "quantityForFMCG":0,
+      "defaultCatalogueIdForFMCG":685539124441,
+      "brandName":"HP",
+      "serviceable":true,
+      "sdInstallProduct":false,
+      "sdInstallFree":false,
+      "productCategoryListing":[
+
+      ],
+      "sdPlusProduct":true,
+      "displaySUPC":"SDL544023378",
+      "appOnlyOfferPrice":null,
+      "appOnlyPriceDiscount":null,
+      "appOnlyOffer":false,
+      "similarExists":false,
+      "sdGold":true,
+      "showDifferentialPrice":true,
+      "ipmsDown":false,
+      "initAttributes":[
+
+      ],
+      "noOfRatings":72,
+      "attributesJsonFull":"[]",
+      "productNameClipped":false,
+      "freebieNameClipped":false
+   },
+   {
+      "id":1873199287,
+      "image":"imgs/a/0/t/166x194/Chipo-Portronics-Pure-Sound-Pro-SDL185695349-1-2528a.jpg",
+      "price":2999,
+      "voucherPrice":2399,
+      "displayPrice":2299,
+      "prebook":false,
+      "discount":23,
+      "pageUrl":"product/chipo-portronics-pure-sound-pro/1873199287",
+      "addedToday":false,
+      "codValid":true,
+      "soldOut":false,
+      "name":"Portronics Pure Sound Pro BT II Por118 Bluetooth Soundbar",
+      "freebies":[
+
+      ],
+      "initialAttributes":[
+
+      ],
+      "externalContentSRO":null,
+      "productOfferIds":[
+
+      ],
+      "imageForMobile":null,
+      "live":true,
+      "launched":true,
+      "avgRating":4.1,
+      "noOfReviews":364,
+      "cashBackValue":null,
+      "cashBackValueInt":null,
+      "externalCashBackApplicable":false,
+      "cashBackType":"ABS",
+      "sellingPriceAftExtCashBack":null,
+      "walletCashBackValue":0.0,
+      "walletCashBackValueInt":0,
+      "walletCashbackApplicable":true,
+      "walletCashbackSource":"snapdeal",
+      "walletCashbackType":"ABS",
+      "sellingPriceAftWalletCashback":2299,
+      "walletCashbackDiscount":23,
+      "shippingDays":2,
+      "productTag":null,
+      "shippingCharges":0,
+      "labelUrl":"electronics-bluetooth-speakers",
+      "labelId":46102537,
+      "labelName":"Bluetooth Speakers",
+      "emi":397,
+      "emiApplicable":true,
+      "vendorCode":"S70805",
+      "vendorName":null,
+      "productLifeState":"Buy Now",
+      "productStatus":"active",
+      "actualIndex":null,
+      "emiMonthList":null,
+      "automobileProduct":false,
+      "exshowroomPrice":null,
+      "snapBazaarSeller":false,
+      "warehousePincode":null,
+      "initAttributesFull":[
+
+      ],
+      "initAttributeType":null,
+      "offers":[
+         {
+            "id":1808944185,
+            "live":true,
+            "supcs":[
+               "SDL185695349"
+            ],
+            "images":[
+               "imgs/a/0/t/166x194/Chipo-Portronics-Pure-Sound-Pro-SDL185695349-1-2528a.jpg",
+               "imgs/a/0/t/166x194/Chipo-Portronics-Pure-Sound-Pro-SDL185695349-2-dccf7.jpg",
+               "imgs/a/0/t/166x194/Chipo-Portronics-Pure-Sound-Pro-SDL185695349-3-13b13.jpg",
+               "imgs/a/0/t/166x194/Chipo-Portronics-Pure-Sound-Pro-SDL185695349-4-cc2b6.jpg",
+               "imgs/a/0/t/166x194/Chipo-Portronics-Pure-Sound-Pro-SDL185695349-5-67732.jpg",
+               "imgs/a/0/t/166x194/Chipo-Portronics-Pure-Sound-Pro-SDL185695349-6-0e853.jpg",
+               "imgs/b/x/1/166x194/sdl185695349-fb27b.jpg"
+            ]
+         }
+      ],
+      "highlights":[
+
+      ],
+      "launchDate":null,
+      "attributesUpdated":true,
+      "brandId":3597,
+      "bucketId":3840,
+      "mrpAware":true,
+      "defaultSupcForFMCG":"SDL185695349",
+      "quantityForFMCG":0,
+      "defaultCatalogueIdForFMCG":1808944185,
+      "brandName":"Portronics",
+      "serviceable":true,
+      "sdInstallProduct":false,
+      "sdInstallFree":false,
+      "productCategoryListing":[
+
+      ],
+      "sdPlusProduct":true,
+      "displaySUPC":"SDL185695349",
+      "appOnlyOfferPrice":null,
+      "appOnlyPriceDiscount":null,
+      "appOnlyOffer":false,
+      "similarExists":false,
+      "sdGold":true,
+      "showDifferentialPrice":false,
+      "ipmsDown":false,
+      "initAttributes":[
+
+      ],
+      "noOfRatings":364,
+      "attributesJsonFull":"[]",
+      "productNameClipped":false,
+      "freebieNameClipped":false
+   }
+
+]

@@ -1,0 +1,123 @@
+
+#mainWrapperX_newX999 {
+  overflow: hidden;
+  position: relative;
+}
+
+li.hamburgerContX {
+      position: absolute;
+      right: 0%;
+      top: 0;
+      z-index: 10;
+      cursor: pointer;
+      padding: 0 0.3em;
+      box-sizing: border-box;
+
+
+      @include breakpoint(480px){
+          display: none;
+          right: 10%;
+      }
+}
+
+//vars
+$transparentW: rgba(0,0,0,0.9);
+$transparentW_hover: rgba(0,0,0,0.6);
+
+.hamburger {
+    padding: 4px 4px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    background: $transparentW;
+    overflow: visible;
+    @include transform(translate(0, 0));
+    position: relative;
+    z-index: 10;
+
+    @include breakpoint(max-width 768px){
+        &.activeX99 {
+            padding: 8px 4px;
+        }
+    }
+
+    @include breakpoint(768px){
+        padding: 8px 4px;
+    }
+
+}
+  .hamburger:hover {
+    background: $transparentW_hover;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+/*.hamburger.is-active {
+    @include transform(translate(-1em, -1em));
+}*/
+
+
+.hamburger-box {
+  width: 30px;
+  height: 15px;
+  display: inline-block;
+  position: relative; }
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px; }
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease; }
+  .hamburger-inner::before, .hamburger-inner::after {
+    content: "";
+    display: block; }
+  .hamburger-inner::before {
+    top: -10px; }
+  .hamburger-inner::after {
+    bottom: -10px; }
+
+/*
+ * Slider
+ */
+.hamburger--slider .hamburger-inner {
+  top: 4px; }
+  .hamburger--slider .hamburger-inner::before {
+    top: 6px;
+    transition-property: opacity, -webkit-transform;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    transition-timing-function: ease;
+    transition-duration: 0.2s; }
+  .hamburger--slider .hamburger-inner::after {
+    top: 12px; }
+
+.hamburger--slider.activeX99 .hamburger-inner {
+  -webkit-transform: translate3d(0, 6px, 0) rotate(45deg);
+          transform: translate3d(0, 6px, 0) rotate(45deg); }
+  .hamburger--slider.activeX99.hamburger-inner::before {
+    -webkit-transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+            transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+    opacity: 0; }
+  .hamburger--slider.activeX99 .hamburger-inner::after {
+    -webkit-transform: translate3d(0, -12px, 0) rotate(-90deg);
+            transform: translate3d(0, -12px, 0) rotate(-90deg); }

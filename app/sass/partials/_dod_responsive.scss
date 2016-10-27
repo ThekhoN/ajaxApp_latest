@@ -1,0 +1,13 @@
+.offerUnits_2_2 {
+  box-sizing: border-box;
+  display: inline-block;
+  margin:0;
+  width: 100%;
+
+   @include breakpoint(1024px){
+      float: none;
+      width: 46%;
+      margin: 0 1%;
+      vertical-align: top;
+    }
+}

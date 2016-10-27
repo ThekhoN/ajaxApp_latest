@@ -1,0 +1,47 @@
+$botNav_h: 40px;
+
+.botNavX99_Wrapper {
+  display: block;
+
+  @include breakpoint(1024px){
+    display: none;
+  }
+}
+
+.botNavX99 {
+  width: 100%;
+  position: fixed;
+  bottom:0;
+  cursor:pointer;
+  display:none;
+  opacity:0;
+  @include transform(translateY($botNav_h));
+  @include transition(all 0.2s ease-out);
+
+  .activeX99 {
+    background: $navMainActive !important;
+    //background: #FF2341 !important;
+    a {
+      color: #ffffff !important;
+      letter-spacing: 1px;
+      font-family: $sansSerifFontBold;
+    }
+  }
+}
+
+.visiblX_botFixed {
+    opacity:1;
+    visibility: visible;
+}
+
+.displayOn_invis_botFixed {
+    display:block;
+    visibility:hidden;
+}
+
+.slideInX999_botFixed {
+    opacity:1;
+    visibility: visible;
+    z-index: 5;
+    @include transform(translateY(0));
+}

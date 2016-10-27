@@ -1,0 +1,59 @@
+#BlockbusterDeals_offerUnit_Wrapper, #FeaturedDeals_offerUnit_Wrapper  {
+  .offerUnit_priceTaglineWrap_rel {
+    margin-bottom: 0 !important;
+  }
+}
+
+#UpcomingDeals_offerUnit_Wrapper {
+  padding-top: 0;
+}
+
+
+#UpcomingDeals_offerUnit_Wrapper {
+  .offerUnit {
+    cursor: default;
+  }
+}
+
+#bestOfBrands {
+  .offerUnit_imgWrap_sdPlusInc_rel {
+    background: #f5f5f5;
+  }
+
+  .offerUnit_priceTaglineWrap_rel  {
+    height: 2.1em !important;
+    line-height: 1.3 !important;
+  }
+
+  .offerUnit_imgWrap_sdPlusInc_rel img {
+    width: 130px;
+    height:127px;
+
+    @include breakpoint(768px){
+      width: 166px;
+      height: 163px;
+    }
+  }
+}
+
+#quickLinks {
+  padding: 8px 0;
+
+  .offerUnit_nonImgContWrap {
+    text-align: center !important;
+  }
+  li.offer_x99Unit  {
+    border-radius: 60px;
+    background: #00b1ff;
+    color: white;
+    padding: 0.6em 0;
+    margin-bottom: 1.8%;
+  }
+  .offerUnit_tagline {
+    color: white;
+  }
+  .offerUnit_priceTaglineWrap_rel {
+    line-height: 1.3;
+    overflow: hidden;
+  }
+}
